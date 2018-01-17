@@ -61,6 +61,7 @@
       <HintPath>..\packages\RestSharp.106.1.0\lib\net452\RestSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -72,19 +73,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\JSONPlaceholderAPI.cs" />
-    <Compile Include="Objects\Address.cs" />
-    <Compile Include="Objects\Company.cs" />
-    <Compile Include="Objects\Geo.cs" />
+    <Compile Include="Core\UserActions.cs" />
+    <Compile Include="DataObjects\Address.cs" />
+    <Compile Include="DataObjects\Company.cs" />
+    <Compile Include="DataObjects\Geo.cs" />
+    <Compile Include="TestCases\UserTests.cs" />
     <Compile Include="TestDataAccess\ExcelDataAccess.cs" />
     <Compile Include="TestDataAccess\UserData.cs" />
-    <Compile Include="Tests\JSONPlaceholderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Objects\User.cs" />
+    <Compile Include="DataObjects\User.cs" />
+    <Compile Include="Wrapper\WrapperAPI.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="TestData\Users_Names.csv" />
     <None Include="Users_Names.csv" />
   </ItemGroup>
   <ItemGroup>
@@ -92,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Reports\" />
+    <Folder Include="TestData\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
