@@ -87,7 +87,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="TestData\user_test_data.json" />
-    <None Include="Users_Names.csv" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="extent-config.xml" />
