@@ -1,6 +1,6 @@
 ﻿namespace API_TEST
 {
-    class Geo
+    public class Geo
     {
         public float Lat { get; set; }
         public float Lng { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace API_TEST
 {
-    class User : Address
+    public class User : Address
     {
         public int Id { get; set; }
         public string Name { get; set; }

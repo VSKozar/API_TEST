@@ -1,6 +1,6 @@
 ﻿namespace API_TEST
 {
-    class Address : Geo
+    public class Address : Geo
     {
         public string ZipCode { get; set; }
         public string City { get; set; }
