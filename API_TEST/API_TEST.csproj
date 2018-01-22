@@ -75,8 +75,13 @@
   <ItemGroup>
     <Compile Include="Core\UserActions.cs" />
     <Compile Include="DataObjects\Address.cs" />
+    <Compile Include="DataObjects\Album.cs" />
+    <Compile Include="DataObjects\Comment.cs" />
     <Compile Include="DataObjects\Company.cs" />
     <Compile Include="DataObjects\Geo.cs" />
+    <Compile Include="DataObjects\Photo.cs" />
+    <Compile Include="DataObjects\Post.cs" />
+    <Compile Include="DataObjects\Todo.cs" />
     <Compile Include="TestCases\UserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataObjects\User.cs" />
@@ -86,6 +91,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="TestData\posts_test_data.json" />
     <None Include="TestData\user_test_data.json" />
   </ItemGroup>
   <ItemGroup>

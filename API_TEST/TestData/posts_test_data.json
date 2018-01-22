@@ -1,0 +1,20 @@
+﻿[
+  {
+    "userId": 3,
+    "id": 136,
+    "title": "RestSharpt discuss",
+    "body": "A set of key/value pairs that configure the Ajax request. All properties except for url are optional. A default can be set for any option with"
+  },
+  {
+    "userId": 3,
+    "id": 256,
+    "title": "RestSharpt discuss",
+    "body": "Pages fetched with POST are never cached, so the cache and ifModified options in jQuery.ajaxSetup() have no effect on these requests."
+  },
+  {
+    "userId": 2,
+    "id": 318,
+    "title": "RestSharpt discuss",
+    "body": "The Promise interface also allows jQuery's Ajax methods, including $.get(), to chain multiple .done(), .fail(), and .always() callbacks on a single request, and even to assign these callbacks after the request may have completed. If the request is already complete, the callback is fired immediately."
+  }
+]
